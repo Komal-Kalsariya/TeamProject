@@ -75,8 +75,7 @@ const footer = () => {
         </div>
         <div class="border-bottom"></div>
         <div class="row copyright">
-            <p>Copyright ©2024 All rights reserved | This Project is made with <i class="fa-regular fa-heart"></i> by ITISHA BHATIYA</p>
-        </div>
+            <p>Copyright ©2024 All rights reserved | This Project is made with <i class="fa-regular fa-heart"></i>by our team</p> </div>
         </div>
 </footer>`
 }
