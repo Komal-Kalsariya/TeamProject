@@ -1,3 +1,4 @@
+
 import postdata from "../API/post.js"
 
 
@@ -14,3 +15,7 @@ const handleadd=(e)=>{
     console.log(product);
 }
 document.getElementById("product_data").addEventListener("submit",handleadd)
+
+import footer from "../component/footer.js";
+document.getElementById("footer").innerHTML=footer()
+
