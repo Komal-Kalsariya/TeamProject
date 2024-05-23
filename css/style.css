@@ -1,3 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    color: #000000;
+}
+.navbar  form a i{
+    text-decoration: none;
+    color: #000000;
+}
+.navbar img{
+    width: 70px;
+    height: 70px;
+    /* border-radius: %; */
+}
 
 .bckg-img{
     background-size: cover;
@@ -24,7 +42,7 @@ element.style{
  
 
 .f-counter{
-    padding: 5em 0;
+     padding: 5em 0; 
 }
 
 #section-counter{
@@ -143,28 +161,44 @@ element.style{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
-.ckeck-img{
     position: relative;
     padding: 100px;
     height: 300px;
-}
+} 
+
 .check-m{
     margin-right: 0;
     margin-left: 0;
 }
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.home-info{
+    /* position: absolute; */
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    z-index: 99;
+    font-weight: 300;
 }
-form{
+.chek-btn:hover{
+ background-color: #ffa45c;
+}
+
+#boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+/* addproduct */
+/* form{
     margin: 30px 20px;
     padding: 25px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 15px;
-}
+} */
 .add-bg img{
     width: 680px;
     margin: 30px 20px;
@@ -183,6 +217,14 @@ form{
 }
 .img1{
     width: 200px;
+}
+/* cartpage */
+.cart-img{
+    width: 50px;
+    height: 50px;
+}
+.padding-top{
+    padding-top: 80px;
 }
 /* product banner css */
 
@@ -211,7 +253,7 @@ h1{
 }
 /* product css */
 .padding{
-    padding-top: 80px ;
+    padding-top: 80px ; 
     position: relative;
 }.container{
     max-width: 1140px;
@@ -230,6 +272,7 @@ a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.795);
 }
+
 .sidebar-box-2{
     display: block;
     /* padding: 20px; */
@@ -286,6 +329,21 @@ transform:all 0.5s;
 }
 
 /* footer css start */
+
+.signup-bg img{
+    /* background-image: url(); */
+    width: 680px;
+    margin: 30px 20px;
+    padding: 25px;
+}
+.login-bg img{
+    /* background-image: url(); */
+    width: 680px;
+    margin: 30px 20px;
+    padding: 25px;
+}
+
+
 footer {
 
 	padding-top: 30px;

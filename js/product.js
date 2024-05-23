@@ -1,4 +1,5 @@
-
+import NavBar from "../component/navbar.js"
+document.getElementById("navbar").innerHTML=NavBar()
 import getdata from "../API/get.js"
 import uimaker from "../component/uiMaker.js"
 
@@ -11,4 +12,5 @@ let get=async()=>{
 get()
 
 import footer from "../component/footer.js";
+
 document.getElementById("footer").innerHTML=footer()

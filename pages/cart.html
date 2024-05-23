@@ -11,24 +11,59 @@
 </head>
 <body>
     <div id="navbar"></div>
-    
-    
-        <!-- <div class="ckeck-img" style="background-image: url(/images/free-photo-beauty-people-emotions-summer_837074-12276.avif);"></div> -->
-    <section class="bckg-img  ckeck-img" id="section-counter" style="background-image: url(/images/bg_6.jpg);"></section>
-    <div class="container">
-        <div class="row check-m align-items-center justify-content-center">
-            <div class="col-md-9 text-center">
-                <div class="">
-
-                </div>
-
+    <section>
+    <div class="hero-wrap hero-bread" style="background-image: url('/images/bg_6.jpg');">
+        <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center ">
+                <p class="breadcrumbs">
+                  <span>home</span>
+                  <span>cart</span>
+                </p>
+                <h1 class="mb-0 bread">my cart</h1>
             </div>
-
-
         </div>
 
     </div>
     </section>
+   <section class="padding-top">
+    <div class="d-flex justify-content-center">
+        <table class="table table-striped w-75">
+            <thead>
+                <tr>
+                    <th>sr.no</th>
+                    <th>image</th>
+                    <th>Product</th>
+                    <th>price</th>
+                    <th>Qntity</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+   </section>
+   <hr>
+   <section class="padding-80 bg-color d-flex">
+    
+    <div class="col-9 ms-3">
+        <h4 class="text-uppercase">coupon</h4>
+        <p class="fw-light">Enter your coupon code if you have one</p>
+       <form id="check-data">
+        <input type="number" class="form-control w-25 mt-4" id="coupon" placeholder="Enter Code">
+        <!-- <a href="/pages/checkout.html"> -->
+            <button class="btn chek-btn border mt-3" id="check" type="submit">CHECKOUT</button>
+         <!-- </a> -->
+       </form>
+    </div>
+    <div class="col-3">
+        <h4 class="text-uppercase">Cart total</h4>
+        <hr>
+        <div id="subtotal"></div>
+     
+    </div>
+
+</section>
 </body>
 <script src="/js/cart.js" type="module"></script>
 </html>
