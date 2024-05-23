@@ -1,13 +1,6 @@
-{
 
+{
   "product": [
-    {
-      "id": "a8e6",
-      "title": "hasti",
-      "img": "https://themewagon.github.io/winkel/images/product-2.jpg",
-      "cate": "woemen",
-      "price": "666"
-    },
     {
       "id": "e48a",
       "title": "tfgh",
@@ -21,13 +14,6 @@
       "img": "https://themewagon.github.io/winkel/images/product-6.jpg",
       "cate": "men",
       "price": "678"
-    },
-    {
-      "id": "2565",
-      "title": "fg",
-      "img": "https://themewagon.github.io/winkel/images/product-1.jpg",
-      "cate": "men",
-      "price": "67"
     },
     {
       "id": "740a",
@@ -63,8 +49,24 @@
       "img": "https://themewagon.github.io/winkel/images/product-5.jpg",
       "cate": "men",
       "price": "134"
+    },
+    {
+      "id": "e4f4",
+      "title": "dress",
+      "img": "https://themewagon.github.io/winkel/images/product-4.jpg",
+      "cate": "woemen",
+      "price": "50000"
+    }
+   
+  ],
+  "cart": [
+    {
+      "id": "bedc",
+      "title": "zsdfg",
+      "img": "https://themewagon.github.io/winkel/images/product-3.jpg",
+      "cate": "men",
+      "price": "34",
+      "qnt": 2
     }
   ]
-
 }
-
