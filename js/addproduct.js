@@ -1,5 +1,12 @@
 
+
+import NavBar from "../component/navbar.js"
+document.getElementById("navbar").innerHTML=NavBar()
+
 import postdata from "../API/post.js"
+
+
+
 
 
 const handleadd=(e)=>{
@@ -16,6 +23,6 @@ const handleadd=(e)=>{
 }
 document.getElementById("product_data").addEventListener("submit",handleadd)
 
-import footer from "../component/footer.js";
-document.getElementById("footer").innerHTML=footer()
 
+// import footer from "../component/footer.js";
+// document.getElementById("footer").innerHTML=footer()
