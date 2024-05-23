@@ -11,11 +11,18 @@ const NavBar=()=>{
             <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
+        <a class="nav-link" href="/pages/about.html">AboutUs</a>
+      </li>
+          <li class="nav-item">
             <a class="nav-link" href="/pages/admin.html">AddProduct</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/product.html">Product</a>
           </li>
+          <li class="nav-item">
+          <a class="nav-link" href="/pages/contact.html">Contacts</a>
+        </li>
+        
           <li class="nav-item">
            
           </li>
