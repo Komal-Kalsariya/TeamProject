@@ -1,4 +1,12 @@
 {
+  "user": [
+    {
+      "id": "df5d",
+      "user": "komal",
+      "email": "ganeshsurodkar@gmail.com",
+      "password": "Komal@73"
+    }
+  ],
   "product": [
     {
       "id": "e48a",
@@ -56,7 +64,6 @@
       "cate": "woemen",
       "price": "50000"
     }
-   
   ],
   "cart": [
     {
