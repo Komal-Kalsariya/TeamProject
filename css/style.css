@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -131,80 +132,6 @@ transform:all 0.5s;
     background-color: rgb(255, 164, 92);
 }
 .cate1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.like{
-    /* background-color: rgba(0, 0, 0, 0.651); */
-    padding: 5px;
-    margin: 10px;
-    border: none;
-    /* color: white; */
-    font-size: 20px;
-}
-/* filter */
-
-.facet-filters-sticky{
-    position: sticky;
-}
-.facet-filters{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 15px;
-}
-.facets-container-drawer {
-    display:flex;
-    flex-direction: row-reverse;
-}
-.total-product{
-    margin: 10px;
-}
-.product-sorting{
-    padding-left: 500px;
-}
-.product-sorting select{
-    margin-right: 50px;
-    border: none;
-    background-color: transparent;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.5;
-    padding-left: 0;
-    margin: 0;
-    text-transform: uppercase;
-    outline: none;
-    height: auto;
-}
-select option{
-    line-height: 40px;
-    font-weight: bold;
-
-}
-.product-sorting p{
-    margin-bottom: 0px;
-    font-size: 12px;
-    font-weight: 600;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 0.75px;
-    margin-right: 15px;
-    margin-top: 0;
-}
-/* cate css */
-.cate button{
-    /* border: none;    */
-    padding: 10px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 12px;
-    border: none;
-    border-radius: 5px;
-}
-/* contarct page css */
-
-.contract-info{
     display: flex;
     flex-wrap: wrap;
 }

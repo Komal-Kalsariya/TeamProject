@@ -15,7 +15,7 @@ const uimaker=(product,id)=>{
 
         let cate=document.createElement("p")
         cate.innerHTML="cate : "+ele.cate
-        cate.setAttribute("class","cate1")
+     
 
         
         let btn=document.createElement("button")

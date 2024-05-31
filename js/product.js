@@ -1,3 +1,4 @@
+
 import getdata from "../API/get.js"
 import uimaker from "../component/uiMaker.js"
 
