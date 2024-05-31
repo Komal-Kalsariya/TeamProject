@@ -1,9 +1,28 @@
-{
 
+{
   "product": [
     {
+<<<<<<< admin
       "id": "b509",
       "title": "hasj",
+=======
+      "id": "e48a",
+      "title": "tfgh",
+      "img": "https://themewagon.github.io/winkel/images/product-4.jpg",
+      "cate": "men",
+      "price": "234"
+    },
+    {
+      "id": "4500",
+      "title": "hasti",
+      "img": "https://themewagon.github.io/winkel/images/product-6.jpg",
+      "cate": "men",
+      "price": "678"
+    },
+    {
+      "id": "740a",
+      "title": "dfrt",
+>>>>>>> master
       "img": "https://themewagon.github.io/winkel/images/product-3.jpg",
       "cate": "women",
       "price": "222"
@@ -34,8 +53,29 @@
       "title": "hasj",
       "img": "https://themewagon.github.io/winkel/images/product-8.jpg",
       "cate": "men",
+<<<<<<< admin
       "price": "4000"
+=======
+      "price": "134"
+    },
+    {
+      "id": "e4f4",
+      "title": "dress",
+      "img": "https://themewagon.github.io/winkel/images/product-4.jpg",
+      "cate": "woemen",
+      "price": "50000"
+    }
+   
+  ],
+  "cart": [
+    {
+      "id": "bedc",
+      "title": "zsdfg",
+      "img": "https://themewagon.github.io/winkel/images/product-3.jpg",
+      "cate": "men",
+      "price": "34",
+      "qnt": 2
+>>>>>>> master
     }
   ]
-
 }

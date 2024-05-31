@@ -1,4 +1,5 @@
-
+import NavBar from "../component/navbar.js"
+document.getElementById("navbar").innerHTML=NavBar()
 import getdata from "../API/get.js"
 import uimaker from "../component/uiMaker.js"
 
@@ -10,6 +11,7 @@ let get=async()=>{
 }
 get()
 
+<<<<<<< admin
 const handledata=async(val)=>{
     let data =await getdata("http://localhost:3000/product")
     if(val == "highest rated"){
@@ -35,3 +37,8 @@ document.getElementById("sort").addEventListener("change",()=>{
 document.getElementById("men").addEventListener("click",()=>handlefilter("men"))
 document.getElementById("kid").addEventListener("click",()=>handlefilter("kid"))
 document.getElementById("women").addEventListener("click",()=>handlefilter("women"))
+=======
+import footer from "../component/footer.js";
+
+document.getElementById("footer").innerHTML=footer()
+>>>>>>> master
