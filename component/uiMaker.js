@@ -24,27 +24,34 @@ const uimaker=(product,id)=>{
         img.setAttribute("class","img1")
 
         let price=document.createElement("p")
-        price.innerHTML=""+ele.price
+        price.innerHTML="price : "+ele.price
 
         let cate=document.createElement("p")
-        cate.innerHTML=ele.cate
-        cate.setAttribute("class","cate1")
+        cate.innerHTML="cate : "+ele.cate
+     
 
         
-        let btn1=document.createElement("button")
-        btn1.innerHTML="<i class=ri-thumb-up-fill></i>"
-        btn1.setAttribute("class","like")
-
         let btn=document.createElement("button")
         btn.innerHTML="ADD TO CART +"
         btn.setAttribute("class","btn1 ")
+<<<<<<< admin
+
+        let btn3=document.createElement("button")
+        btn3.innerHTML="delete"
+
+        btn3.addEventListener("click",()=>{
+            deletedata((ele.id))
+        })
+       
+=======
        btn.addEventListener("click",()=>{
         cartExit({...ele,qnt:1})
 
         })
+>>>>>>> master
 
         let div=document.createElement("div")
-        div.append(img,title,price,cate,btn,btn1)
+        div.append(img,title,price,cate,btn)
         div.setAttribute("class","box1")
         
 

@@ -2,6 +2,10 @@
 {
   "product": [
     {
+<<<<<<< admin
+      "id": "b509",
+      "title": "hasj",
+=======
       "id": "e48a",
       "title": "tfgh",
       "img": "https://themewagon.github.io/winkel/images/product-4.jpg",
@@ -18,36 +22,40 @@
     {
       "id": "740a",
       "title": "dfrt",
+>>>>>>> master
       "img": "https://themewagon.github.io/winkel/images/product-3.jpg",
-      "cate": "woemen",
-      "price": "6789"
+      "cate": "women",
+      "price": "222"
     },
     {
-      "id": "da42",
-      "title": "sdf",
-      "img": "https://themewagon.github.io/winkel/images/product-7.jpg",
-      "cate": "men",
-      "price": "45678"
-    },
-    {
-      "id": "141b",
-      "title": "sdfg",
-      "img": "https://themewagon.github.io/winkel/images/product-2.jpg",
-      "cate": "men",
-      "price": "2345"
-    },
-    {
-      "id": "bedc",
-      "title": "zsdfg",
-      "img": "https://themewagon.github.io/winkel/images/product-3.jpg",
-      "cate": "men",
-      "price": "34"
-    },
-    {
-      "id": "4535",
-      "title": "hasti",
+      "id": "1109",
+      "title": "hasj",
       "img": "https://themewagon.github.io/winkel/images/product-5.jpg",
+      "cate": "women",
+      "price": "222"
+    },
+    {
+      "id": "6901",
+      "title": "hasj",
+      "img": "https://themewagon.github.io/winkel/images/product-4.jpg",
+      "cate": "women",
+      "price": "2290"
+    },
+    {
+      "id": "2b87",
+      "title": "hasj",
+      "img": "https://themewagon.github.io/winkel/images/product-8.jpg",
       "cate": "men",
+      "price": "4000"
+    },
+    {
+      "id": "4f95",
+      "title": "hasj",
+      "img": "https://themewagon.github.io/winkel/images/product-8.jpg",
+      "cate": "men",
+<<<<<<< admin
+      "price": "4000"
+=======
       "price": "134"
     },
     {
@@ -67,6 +75,7 @@
       "cate": "men",
       "price": "34",
       "qnt": 2
+>>>>>>> master
     }
   ]
 }
