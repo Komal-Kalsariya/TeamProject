@@ -41,7 +41,7 @@ const footer = () => {
                     <div class="row">
                         <div class="col-4">
                             <div class="footer-img-box">
-                                <img src="/images/1.jpg.webp" alt="error" />
+                                <img src="/images/girl2.jpg" alt="error" />
                             </div>
                         </div>
                         <div class="col-4">

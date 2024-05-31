@@ -40,3 +40,7 @@ const signupdata=(e)=>{
    
 }
 document.getElementById("data").addEventListener("submit",signupdata)
+import footer from "../component/footer.js";
+
+
+document.getElementById("footer").innerHTML=footer()

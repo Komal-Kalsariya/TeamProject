@@ -10,14 +10,19 @@ const NavBar=()=>{
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
+            <li class="nav-item">
+
+            <a class="nav-link" href="/pages/about.html">Aboutus</a>
+         </li>
           <li class="nav-item">
+
             <a class="nav-link" href="/pages/addproduct.html">AddProduct</a>
-          </li>
+         </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/product.html">Product</a>
           </li>
           <li class="nav-item">
-           
+             <a class="nav-link" href="/pages/contact.html">ContactUs</a>
           </li>
         </ul>
         <form class="d-flex" role="search" id="searchform">

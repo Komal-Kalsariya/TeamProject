@@ -73,6 +73,22 @@
       "cate": "men",
       "price": "34",
       "qnt": 2
+    },
+    {
+      "id": "740a",
+      "title": "dfrt",
+      "img": "https://themewagon.github.io/winkel/images/product-3.jpg",
+      "cate": "woemen",
+      "price": "6789",
+      "qnt": 1
+    },
+    {
+      "id": "141b",
+      "title": "sdfg",
+      "img": "https://themewagon.github.io/winkel/images/product-2.jpg",
+      "cate": "men",
+      "price": "2345",
+      "qnt": 1
     }
   ]
 }
