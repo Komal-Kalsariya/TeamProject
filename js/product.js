@@ -9,8 +9,22 @@ let get=async()=>{
 
     uimaker(data,"box")
 }
-get()
 
+get()
+const searchdata=async(val)=>{
+    let data=await getdata("http://localhost:3000/product")
+    let temp=data.filter((ele)=>ele.title==val)
+    uimaker(temp,"box")
+}
+
+ const searchhandle=(e)=>{
+    e.preventDefault()
+
+    let val=document.getElementById("search").value
+    searchdata(val)
+    
+ }
+ document.getElementById("searchform").addEventListener("click",searchhandle)
 import footer from "../component/footer.js";
 
 document.getElementById("footer").innerHTML=footer()

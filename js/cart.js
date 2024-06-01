@@ -22,7 +22,7 @@ const handleqntity=(opr,product)=>{
 
 }
 let total=0
-let dic=0
+let dis=0
 const uimaker=(product,id)=>{
     document.getElementById(id).innerHTML=""
     product.map((ele,index)=>{
@@ -107,6 +107,6 @@ document.getElementById("check-data").addEventListener("submit",handecoupan)
 
 
 
-// import footer from "../component/footer.js";
-// document.getElementById("footer").innerHTML=footer()
+import footer from "../component/footer.js";
+document.getElementById("footer").innerHTML=footer()
 

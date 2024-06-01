@@ -24,5 +24,5 @@ const handleadd=(e)=>{
 document.getElementById("product_data").addEventListener("submit",handleadd)
 
 
-// import footer from "../component/footer.js";
-// document.getElementById("footer").innerHTML=footer()
+import footer from "../component/footer.js";
+document.getElementById("footer").innerHTML=footer()

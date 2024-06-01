@@ -29,3 +29,5 @@ const loginData=(e)=>{
 
 }
 document.getElementById("data").addEventListener("submit",loginData)
+import footer from "../component/footer.js";
+document.getElementById("footer").innerHTML=footer()

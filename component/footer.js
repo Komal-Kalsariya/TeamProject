@@ -1,5 +1,5 @@
 const footer = () => {
-    return `<hr class="border border-secondary border-1 opacity-20">
+    return `
     <footer class="padding-100">
     <div class="container">
         <div class="row">
@@ -41,32 +41,32 @@ const footer = () => {
                     <div class="row">
                         <div class="col-4">
                             <div class="footer-img-box">
-                                <img src="/images/girl2.jpg" alt="error" />
+                                <img src="/images/footer1.jpg" alt="error" />
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="footer-img-box">
-                                <img src="/images/2.jpg.webp" alt="error" />
+                                <img src="/images/footer2.jpg" alt="error" />
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="footer-img-box">
-                                <img src="/images/3.jpg.webp" alt="error" />
+                                <img src="/images/footer3.jpg" alt="error" />
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="footer-img-box">
-                                <img src="/images/4.jpg.webp" alt="error" />
+                                <img src="/images/footer4.jpg" alt="error" />
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="footer-img-box">
-                                <img src="/images/5.jpg.webp" alt="error" />
+                                <img src="/images/footer5.jpg" alt="error" />
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="footer-img-box">
-                                <img src="/images/6.jpg.webp" alt="error" />
+                                <img src="/images/footer6.jpg" alt="error" />
                             </div>
                         </div>
                     </div>
