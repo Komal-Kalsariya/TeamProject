@@ -46,3 +46,5 @@ const get=async()=>{
 
 }
 get()
+import footer from "../component/footer.js";
+document.getElementById("footer").innerHTML=footer()

@@ -9,9 +9,24 @@ let get=async()=>{
 
     uimaker(data,"box")
 }
-get()
 
-<<<<<<< admin
+get()
+const searchdata=async(val)=>{
+    let data=await getdata("http://localhost:3000/product")
+    let temp=data.filter((ele)=>ele.title==val)
+    uimaker(temp,"box")
+}
+
+ const searchhandle=(e)=>{
+    e.preventDefault()
+
+
+    let val=document.getElementById("search").value
+    searchdata(val)
+    
+ }
+ document.getElementById("searchform").addEventListener("click",searchhandle)
+
 const handledata=async(val)=>{
     let data =await getdata("http://localhost:3000/product")
     if(val == "highest rated"){
@@ -37,8 +52,7 @@ document.getElementById("sort").addEventListener("change",()=>{
 document.getElementById("men").addEventListener("click",()=>handlefilter("men"))
 document.getElementById("kid").addEventListener("click",()=>handlefilter("kid"))
 document.getElementById("women").addEventListener("click",()=>handlefilter("women"))
-=======
+
 import footer from "../component/footer.js";
 
 document.getElementById("footer").innerHTML=footer()
->>>>>>> master

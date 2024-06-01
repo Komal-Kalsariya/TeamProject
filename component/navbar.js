@@ -2,7 +2,7 @@ const NavBar = () => {
   return ` <nav class="navbar  navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
     <a href="/index.html">
-    <img src="/images/unnamed.jpg" alt="">
+    <img src="/images/logo.jpg" alt="">
     </a>
       
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
