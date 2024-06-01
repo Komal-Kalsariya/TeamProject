@@ -34,7 +34,6 @@ const uimaker=(product,id)=>{
         let btn=document.createElement("button")
         btn.innerHTML="ADD TO CART +"
         btn.setAttribute("class","btn1 ")
-<<<<<<< admin
 
         let btn3=document.createElement("button")
         btn3.innerHTML="delete"
@@ -43,12 +42,6 @@ const uimaker=(product,id)=>{
             deletedata((ele.id))
         })
        
-=======
-       btn.addEventListener("click",()=>{
-        cartExit({...ele,qnt:1})
-
-        })
->>>>>>> master
 
         let div=document.createElement("div")
         div.append(img,title,price,cate,btn)
