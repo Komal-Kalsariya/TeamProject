@@ -1,3 +1,4 @@
+
 .navbar .navbar-nav .nav-item .nav-link{
     text-decoration: none;
     color: #000000;
@@ -189,6 +190,7 @@ element.style{
 
 /* end navbar css */
 
+
 *{
     padding: 0;
     margin: 0;
@@ -221,6 +223,7 @@ element.style{
 .img1{
     width: 200px;
 }
+
 .cart-img{
     width: 50px;
     height: 50px;
@@ -228,6 +231,7 @@ element.style{
 .padding-top{
     padding-top: 80px;
 }
+
 /* product banner css */
 
 .hero-wrap {
@@ -331,6 +335,7 @@ transform:all 0.5s;
 .cate1{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 /* footer css */
@@ -467,5 +472,8 @@ footer h2 {
 
 footer .padding-100 {
 	padding-bottom: -100px;
+}
+
+
 }
 
