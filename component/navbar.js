@@ -13,7 +13,7 @@ const NavBar = () => {
           <li class="nav-item">
         <a class="nav-link" href="/pages/about.html">AboutUs</a>
         </li>
-         <li>
+         <li class="nav-item">
 
             <a class="nav-link" href="/pages/addproduct.html">AddProduct</a>
          </li>
