@@ -189,6 +189,22 @@ element.style{
 
 
 /* end navbar css */
+/* about page css */
+.headin-about{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+}
+.wrap-about{
+padding-left: 3em;
+}
+.contact-form{
+    width: 100%;
+}
+#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
 
 
 *{
@@ -204,7 +220,7 @@ element.style{
     border-radius: 15px;
 } 
 .add-bg img{
-    width: 600px;
+    width: 500px;
     height: 500px;
     margin: 30px 20px;
     padding: 25px;
