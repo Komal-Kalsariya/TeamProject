@@ -1,4 +1,3 @@
-
 {
   "user": [
     {
@@ -10,7 +9,6 @@
   ],
   "product": [
     {
-
       "id": "b509",
       "title": "hasj",
       "img": "https://themewagon.github.io/winkel/images/product-4.jpg",
@@ -27,7 +25,6 @@
     {
       "id": "740a",
       "title": "dfrt",
-
       "img": "https://themewagon.github.io/winkel/images/product-3.jpg",
       "cate": "women",
       "price": "222"
@@ -58,9 +55,7 @@
       "title": "hasj",
       "img": "https://themewagon.github.io/winkel/images/product-8.jpg",
       "cate": "men",
-
       "price": "4000"
-      
     },
     {
       "id": "e4f4",
@@ -78,7 +73,6 @@
       "cate": "men",
       "price": "34",
       "qnt": 2
-
     },
     {
       "id": "740a",
@@ -86,7 +80,7 @@
       "img": "https://themewagon.github.io/winkel/images/product-3.jpg",
       "cate": "woemen",
       "price": "6789",
-      "qnt": 1
+      "qnt": 5
     },
     {
       "id": "141b",
