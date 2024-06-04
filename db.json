@@ -89,6 +89,38 @@
       "cate": "men",
       "price": "2345",
       "qnt": 2
+    },
+    {
+      "id": "4f95",
+      "title": "hasj",
+      "img": "https://themewagon.github.io/winkel/images/product-8.jpg",
+      "cate": "men",
+      "price": "4000",
+      "qnt": 1
+    },
+    {
+      "id": "4500",
+      "title": "hasti",
+      "img": "https://themewagon.github.io/winkel/images/product-6.jpg",
+      "cate": "men",
+      "price": "678",
+      "qnt": 2
+    },
+    {
+      "id": "b509",
+      "title": "hasj",
+      "img": "https://themewagon.github.io/winkel/images/product-4.jpg",
+      "cate": "men",
+      "price": "234",
+      "qnt": 3
+    },
+    {
+      "id": "1109",
+      "title": "hasj",
+      "img": "https://themewagon.github.io/winkel/images/product-5.jpg",
+      "cate": "women",
+      "price": "222",
+      "qnt": 1
     }
   ]
 }
