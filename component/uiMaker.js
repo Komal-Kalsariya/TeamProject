@@ -33,6 +33,9 @@ const uimaker=(product,id)=>{
         
         let btn=document.createElement("button")
         btn.innerHTML="ADD TO CART +"
+        btn.addEventListener("click",()=>{
+            cartExit({...ele,qnt:1})
+        })
         btn.setAttribute("class","btn1 ")
 
         let btn3=document.createElement("button")
